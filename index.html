@@ -1,0 +1,1939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#11120f">
+
+<title>Real Estate with Sally | Luxury Property & Advisory</title>
+
+<meta name="description" content="Discover premium real estate opportunities and property advisory with Real Estate with Sally.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+:root {
+  --dark: #11120f;
+  --dark-soft: #1b1c18;
+  --gold: #c5a46d;
+  --gold-light: #e1c99e;
+  --cream: #f7f4ee;
+  --white: #ffffff;
+  --muted: #a8a69f;
+  --serif: 'Playfair Display', serif;
+  --sans: 'DM Sans', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--sans);
+  background: var(--dark);
+  color: var(--cream);
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  width: 90%;
+  max-width: 1240px;
+  margin: auto;
+}
+
+.section-label {
+  color: var(--gold);
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-family: var(--serif);
+  font-size: clamp(34px, 6vw, 62px);
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.gold-text {
+  color: var(--gold-light);
+}
+
+.gold-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 16px 24px;
+  background: var(--gold);
+  color: var(--dark);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: .3s ease;
+}
+
+.gold-button:hover {
+  background: var(--gold-light);
+  transform: translateY(-3px);
+}
+
+.outline-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 23px;
+  border: 1px solid rgba(197,164,109,.65);
+  color: var(--cream);
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: .3s ease;
+}
+
+.outline-button:hover {
+  background: var(--gold);
+  color: var(--dark);
+}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(25px);
+  animation: fadeUp .9s ease forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+
+  .gold-button,
+  .outline-button {
+    padding: 14px 18px;
+    font-size: 10px;
+  }
+}
+
+</style>
+</head>
+
+<body>
+  <!-- NAVIGATION -->
+<header class="site-header">
+  <div class="container nav-wrapper">
+
+    <a href="#home" class="brand">
+      <span class="brand-mark">S</span>
+      <span class="brand-name">
+        REAL ESTATE
+        <small>WITH SALLY</small>
+      </span>
+    </a>
+
+    <nav class="desktop-nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#properties">Properties</a>
+      <a href="#services">Advisory</a>
+      <a href="#contact" class="nav-contact">Let's Talk ↗</a>
+    </nav>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+</header>
+
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#home">Home</a>
+  <a href="#about">About Sally</a>
+  <a href="#properties">Properties</a>
+  <a href="#services">Advisory</a>
+  <a href="#contact">Contact</a>
+</div>
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+
+  <div class="hero-slideshow">
+
+    <img
+      class="hero-slide active"
+      src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg"
+      alt="Luxury contemporary residential property"
+    >
+
+    <img
+      class="hero-slide"
+      src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg"
+      alt="Elegant luxury home exterior"
+    >
+
+    <img
+      class="hero-slide"
+      src="https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg"
+      alt="Premium modern architectural residence"
+    >
+
+    <img
+      class="hero-slide"
+      src="https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg"
+      alt="Luxury contemporary living space"
+    >
+
+  </div>
+
+  <div class="hero-overlay"></div>
+
+  <div class="container hero-content">
+
+    <div class="hero-eyebrow">
+      <span></span>
+      PROPERTY. PERSPECTIVE. POSSIBILITIES.
+    </div>
+
+    <h1>
+      Find More Than<br>
+      A Property.<br>
+      <em>Find Your Future.</em>
+    </h1>
+
+    <p>
+      Thoughtful real estate guidance and carefully
+      considered property opportunities for people
+      who think beyond the ordinary.
+    </p>
+
+    <div class="hero-actions">
+
+      <a href="#properties" class="gold-button">
+        Explore Properties ↗
+      </a>
+
+      <a href="#about" class="outline-button">
+        Discover Sally
+      </a>
+
+    </div>
+
+    <div class="hero-bottom">
+      <span>LAGOS · NIGERIA</span>
+      <span>01 / REAL ESTATE WITH SALLY</span>
+    </div>
+
+  </div>
+
+</section>
+<!-- ABOUT SALLY SECTION -->
+<section class="about-section" id="about">
+
+  <div class="container about-grid">
+
+    <div class="about-visual">
+
+      <div class="about-image-frame">
+
+        <img
+          src="https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg"
+          alt="Professional woman in a business environment"
+          loading="lazy"
+        >
+
+      </div>
+
+      <div class="about-image-caption">
+        <span>REAL ESTATE WITH SALLY</span>
+        <span>PROPERTY CONSULTANCY</span>
+      </div>
+
+      <div class="about-number">
+        <span>01</span>
+        <small>THE PERSON<br>BEHIND THE VISION</small>
+      </div>
+
+    </div>
+
+
+    <div class="about-content">
+
+      <span class="section-label">A PERSONAL APPROACH</span>
+
+      <h2 class="section-title">
+        Real Estate Is<br>
+        More Than <span class="gold-text">Property.</span>
+      </h2>
+
+      <div class="about-divider"></div>
+
+      <p>
+        Every property decision carries a bigger story.
+        It could be the beginning of a new chapter,
+        a long-term investment, or the opportunity
+        to build something meaningful.
+      </p>
+
+      <p>
+        Real Estate with Sally brings a thoughtful,
+        client-focused approach to property acquisition,
+        real estate advisory and consultancy.
+      </p>
+
+      <p>
+        The goal is simple: help clients approach
+        property decisions with greater clarity,
+        confidence and perspective.
+      </p>
+
+      <a href="#contact" class="gold-button about-button">
+        Connect With Sally ↗
+      </a>
+
+      <div class="about-signature">
+        <span>S</span>
+        <div>
+          <strong>Real Estate with Sally</strong>
+          <small>PROPERTY. PERSPECTIVE. POSSIBILITIES.</small>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- FEATURED PROPERTIES -->
+<section class="properties-section" id="properties">
+
+  <div class="container">
+
+    <div class="properties-heading">
+
+      <div>
+        <span class="section-label">THE PROPERTY COLLECTION</span>
+
+        <h2 class="section-title">
+          Spaces Worth<br>
+          <span class="gold-text">Discovering.</span>
+        </h2>
+      </div>
+
+      <p>
+        Explore the possibilities of exceptional
+        residential and investment properties.
+      </p>
+
+    </div>
+
+
+    <div class="property-grid">
+
+      <!-- PROPERTY ONE -->
+      <article class="property-card">
+
+        <div class="property-image">
+
+          <img
+            src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg"
+            alt="Contemporary luxury residential property"
+            loading="lazy"
+          >
+
+          <span class="property-tag">RESIDENTIAL</span>
+
+          <span class="property-number">01</span>
+
+        </div>
+
+        <div class="property-info">
+
+          <span class="property-type">PROPERTY CONCEPT</span>
+
+          <h3>Contemporary Living</h3>
+
+          <p>
+            A showcase of modern architecture,
+            thoughtful design and comfortable living.
+          </p>
+
+          <a href="#contact" class="property-link">
+            ENQUIRE ABOUT SIMILAR PROPERTIES ↗
+          </a>
+
+        </div>
+
+      </article>
+
+
+      <!-- PROPERTY TWO -->
+      <article class="property-card">
+
+        <div class="property-image">
+
+          <img
+            src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg"
+            alt="Elegant luxury residential home"
+            loading="lazy"
+          >
+
+          <span class="property-tag">LUXURY LIVING</span>
+
+          <span class="property-number">02</span>
+
+        </div>
+
+        <div class="property-info">
+
+          <span class="property-type">PROPERTY CONCEPT</span>
+
+          <h3>Elegant Residences</h3>
+
+          <p>
+            An inspiration for clients seeking
+            refined residential environments.
+          </p>
+
+          <a href="#contact" class="property-link">
+            ENQUIRE ABOUT SIMILAR PROPERTIES ↗
+          </a>
+
+        </div>
+
+      </article>
+
+
+      <!-- PROPERTY THREE -->
+      <article class="property-card">
+
+        <div class="property-image">
+
+          <img
+            src="https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg"
+            alt="Premium modern architectural property"
+            loading="lazy"
+          >
+
+          <span class="property-tag">INVESTMENT</span>
+
+          <span class="property-number">03</span>
+
+        </div>
+
+        <div class="property-info">
+
+          <span class="property-type">PROPERTY CONCEPT</span>
+
+          <h3>Modern Developments</h3>
+
+          <p>
+            Explore the possibilities of
+            carefully considered property investment.
+          </p>
+
+          <a href="#contact" class="property-link">
+            DISCUSS INVESTMENT OPTIONS ↗
+          </a>
+
+        </div>
+
+      </article>
+
+    </div>
+
+    <div class="properties-note">
+      Images are illustrative. Property availability,
+      prices and details must be confirmed before publication.
+    </div>
+
+  </div>
+
+</section>
+<!-- ADVISORY SERVICES -->
+<section class="services-section" id="services">
+
+  <div class="container">
+
+    <div class="services-heading">
+      <span class="section-label">WHAT WE DO</span>
+
+      <h2 class="section-title">
+        Clarity Behind<br>
+        Every <span class="gold-text">Decision.</span>
+      </h2>
+
+      <p>
+        Real estate decisions deserve more than guesswork.
+        Explore a thoughtful approach to property advisory
+        and consultancy.
+      </p>
+    </div>
+
+
+    <div class="services-list">
+
+      <article class="service-item">
+
+        <span class="service-number">01</span>
+
+        <div class="service-main">
+          <h3>Property Acquisition</h3>
+          <p>
+            Guidance through the property acquisition
+            journey, from identifying suitable opportunities
+            to navigating important decisions.
+          </p>
+        </div>
+
+        <span class="service-arrow">↗</span>
+
+      </article>
+
+
+      <article class="service-item">
+
+        <span class="service-number">02</span>
+
+        <div class="service-main">
+          <h3>Real Estate Advisory</h3>
+          <p>
+            A considered approach to property choices,
+            helping clients understand opportunities
+            and evaluate their options.
+          </p>
+        </div>
+
+        <span class="service-arrow">↗</span>
+
+      </article>
+
+
+      <article class="service-item">
+
+        <span class="service-number">03</span>
+
+        <div class="service-main">
+          <h3>Property Consultancy</h3>
+          <p>
+            Professional property-focused conversations
+            designed to help clients approach their
+            real estate goals with greater clarity.
+          </p>
+        </div>
+
+        <span class="service-arrow">↗</span>
+
+      </article>
+
+
+      <article class="service-item">
+
+        <span class="service-number">04</span>
+
+        <div class="service-main">
+          <h3>Investment Opportunities</h3>
+          <p>
+            Explore property opportunities and discuss
+            investment considerations based on your
+            objectives and preferences.
+          </p>
+        </div>
+
+        <span class="service-arrow">↗</span>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- INVESTMENT PERSPECTIVE -->
+<section class="investment-section">
+
+  <div class="investment-background">
+
+    <img
+      src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg"
+      alt="Luxury architectural property"
+      loading="lazy"
+    >
+
+  </div>
+
+  <div class="investment-overlay"></div>
+
+  <div class="container investment-content">
+
+    <span class="section-label">
+      THINK BEYOND THE PRESENT
+    </span>
+
+    <h2>
+      Great Property<br>
+      Decisions Begin<br>
+      With <em>Perspective.</em>
+    </h2>
+
+    <p>
+      A property decision is about more than
+      what you see today. It's about understanding
+      the opportunity, asking the right questions
+      and considering what comes next.
+    </p>
+
+    <a href="#contact" class="gold-button">
+      Start A Conversation ↗
+    </a>
+
+    <div class="investment-footer">
+      REAL ESTATE WITH SALLY
+      <span>PROPERTY · PERSPECTIVE · POSSIBILITIES</span>
+    </div>
+
+  </div>
+
+</section>
+<!-- PROPERTY ENQUIRY SECTION -->
+<section class="contact-section" id="contact">
+
+  <div class="container contact-grid">
+
+    <div class="contact-intro">
+
+      <span class="section-label">LET'S CONNECT</span>
+
+      <h2 class="section-title">
+        Your Next<br>
+        Property Move<br>
+        Starts <span class="gold-text">Here.</span>
+      </h2>
+
+      <p>
+        Whether you're exploring property acquisition,
+        seeking real estate guidance or considering
+        an investment opportunity, let's start
+        with a conversation.
+      </p>
+
+      <div class="contact-details">
+
+        <div>
+          <span>LOCATION</span>
+          <strong>Lagos, Nigeria</strong>
+        </div>
+
+        <div>
+          <span>CONNECT WITH SALLY</span>
+          <strong>Instagram · Real Estate with Sally</strong>
+        </div>
+
+      </div>
+
+      <a
+        href="https://www.instagram.com/itsrealestatewithsally/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="outline-button"
+      >
+        VISIT INSTAGRAM ↗
+      </a>
+
+    </div>
+
+
+    <div class="contact-form-wrapper">
+
+      <div class="form-heading">
+        <span>PROPERTY ENQUIRY</span>
+        <p>Tell us what you're looking for.</p>
+      </div>
+
+      <form id="propertyForm">
+
+        <div class="form-group">
+          <label for="clientName">YOUR NAME</label>
+          <input
+            type="text"
+            id="clientName"
+            placeholder="Enter your full name"
+            required
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="clientEmail">EMAIL ADDRESS</label>
+          <input
+            type="email"
+            id="clientEmail"
+            placeholder="Enter your email address"
+            required
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="propertyInterest">WHAT ARE YOU INTERESTED IN?</label>
+
+          <select id="propertyInterest" required>
+            <option value="">Select an enquiry type</option>
+            <option>Property Acquisition</option>
+            <option>Property for Sale</option>
+            <option>Property for Rent</option>
+            <option>Real Estate Advisory</option>
+            <option>Investment Opportunities</option>
+            <option>General Enquiry</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="clientMessage">YOUR MESSAGE</label>
+
+          <textarea
+            id="clientMessage"
+            rows="5"
+            placeholder="Tell us a little about your property needs..."
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" class="gold-button form-submit">
+          PREPARE MY ENQUIRY ↗
+        </button>
+
+        <p class="form-note">
+          Your enquiry will be prepared for you to send
+          directly through Instagram. This demonstration
+          form does not transmit information to Sally.
+        </p>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- FOOTER -->
+<footer class="site-footer">
+
+  <div class="container">
+
+    <div class="footer-top">
+
+      <a href="#home" class="brand footer-brand">
+        <span class="brand-mark">S</span>
+
+        <span class="brand-name">
+          REAL ESTATE
+          <small>WITH SALLY</small>
+        </span>
+      </a>
+
+      <p>
+        Property. Perspective.<br>
+        Possibilities.
+      </p>
+
+      <a href="#home" class="back-to-top">
+        BACK TO TOP ↑
+      </a>
+
+    </div>
+
+
+    <div class="footer-divider"></div>
+
+
+    <div class="footer-bottom">
+
+      <span>
+        © 2026 REAL ESTATE WITH SALLY
+      </span>
+
+      <span>
+        AN INDEPENDENT WEBSITE CONCEPT BY VM WEB STUDIO
+      </span>
+
+    </div>
+
+    <p class="concept-disclaimer">
+      This is an independent demonstration concept.
+      It is not the official website of Real Estate with Sally.
+      Property images are illustrative and do not represent
+      verified listings.
+    </p>
+
+  </div>
+
+</footer>
+<style>
+
+/* HEADER */
+.site-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  border-bottom: 1px solid rgba(255,255,255,.13);
+}
+
+.nav-wrapper {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.brand-mark {
+  width: 43px;
+  height: 43px;
+  border: 1px solid var(--gold);
+  color: var(--gold-light);
+  display: grid;
+  place-items: center;
+  font-family: var(--serif);
+  font-size: 28px;
+}
+
+.brand-name {
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.brand-name small {
+  display: block;
+  margin-top: 5px;
+  font-size: 9px;
+  color: var(--gold);
+  letter-spacing: 4px;
+}
+
+.desktop-nav {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.desktop-nav a {
+  font-size: 11px;
+  color: var(--cream);
+  transition: .3s;
+}
+
+.desktop-nav a:hover {
+  color: var(--gold-light);
+}
+
+.nav-contact {
+  padding: 13px 19px;
+  border: 1px solid var(--gold);
+}
+
+.menu-toggle,
+.mobile-menu {
+  display: none;
+}
+
+
+/* HERO */
+.hero {
+  position: relative;
+  min-height: 760px;
+  height: 100vh;
+  max-height: 950px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero-slideshow,
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+}
+
+.hero-slideshow {
+  background: #20211e;
+}
+
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0;
+  transition: opacity 1.8s ease-in-out;
+}
+
+.hero-slide.active {
+  opacity: 1;
+  animation: heroZoom 8s linear;
+}
+
+@keyframes heroZoom {
+  from { transform: scale(1); }
+  to { transform: scale(1.09); }
+}
+
+.hero-overlay {
+  background: linear-gradient(
+    90deg,
+    rgba(12,13,11,.94) 0%,
+    rgba(12,13,11,.72) 48%,
+    rgba(12,13,11,.22) 100%
+  );
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding-top: 95px;
+}
+
+.hero-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--gold-light);
+  font-size: 10px;
+  letter-spacing: 3px;
+  margin-bottom: 28px;
+}
+
+.hero-eyebrow span {
+  width: 35px;
+  height: 1px;
+  background: var(--gold);
+}
+
+.hero h1 {
+  font-family: var(--serif);
+  font-size: clamp(48px, 8vw, 94px);
+  font-weight: 400;
+  line-height: 1.08;
+  max-width: 850px;
+}
+
+.hero h1 em {
+  color: var(--gold-light);
+  font-weight: 400;
+}
+
+.hero-content > p {
+  max-width: 470px;
+  margin-top: 25px;
+  color: #dedbd3;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 35px;
+}
+
+.hero-bottom {
+  display: flex;
+  justify-content: space-between;
+  max-width: 700px;
+  margin-top: 85px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255,255,255,.25);
+  color: #d3cec4;
+  font-size: 9px;
+  letter-spacing: 2px;
+}
+
+
+/* ABOUT SECTION */
+.about-section {
+  padding: 120px 0;
+  background: var(--cream);
+  color: var(--dark);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 90px;
+  align-items: center;
+}
+
+.about-visual {
+  position: relative;
+  padding: 0 30px 35px 0;
+}
+
+.about-image-frame {
+  height: 580px;
+  overflow: hidden;
+  background: #ddd5c9;
+}
+
+.about-image-frame img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.about-image-caption {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+  font-size: 8px;
+  letter-spacing: 1.5px;
+  color: #777166;
+}
+
+.about-number {
+  position: absolute;
+  right: -5px;
+  top: 40px;
+  background: var(--gold);
+  color: var(--dark);
+  padding: 19px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.about-number span {
+  font-family: var(--serif);
+  font-size: 30px;
+}
+
+.about-number small {
+  font-size: 8px;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+
+.about-content .section-label {
+  display: block;
+  margin-bottom: 22px;
+}
+
+.about-divider {
+  width: 55px;
+  height: 2px;
+  background: var(--gold);
+  margin: 28px 0;
+}
+
+.about-content > p {
+  font-size: 13px;
+  color: #625f57;
+  line-height: 2;
+  margin-bottom: 17px;
+}
+
+.about-button {
+  margin-top: 15px;
+}
+
+.about-signature {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-top: 45px;
+  padding-top: 25px;
+  border-top: 1px solid #ded9cf;
+}
+
+.about-signature > span {
+  font-family: var(--serif);
+  font-size: 38px;
+  color: #a9854e;
+}
+
+.about-signature strong,
+.about-signature small {
+  display: block;
+}
+
+.about-signature strong {
+  font-family: var(--serif);
+  font-size: 15px;
+}
+
+.about-signature small {
+  margin-top: 5px;
+  font-size: 8px;
+  letter-spacing: 1px;
+  color: #777166;
+}
+
+</style>
+<style>
+
+/* PROPERTY SECTION */
+.properties-section {
+  padding: 120px 0;
+  background: var(--dark);
+}
+
+.properties-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 30px;
+  margin-bottom: 55px;
+}
+
+.properties-heading .section-title {
+  margin-top: 20px;
+}
+
+.properties-heading > p {
+  max-width: 310px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.9;
+  padding-bottom: 8px;
+}
+
+.property-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.property-card {
+  background: var(--dark-soft);
+  transition: transform .4s ease;
+}
+
+.property-card:hover {
+  transform: translateY(-8px);
+}
+
+.property-image {
+  position: relative;
+  height: 330px;
+  overflow: hidden;
+}
+
+.property-image img {
+  height: 100%;
+  object-fit: cover;
+  transition: transform .7s ease;
+}
+
+.property-card:hover .property-image img {
+  transform: scale(1.06);
+}
+
+.property-tag {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  background: var(--gold);
+  color: var(--dark);
+  padding: 9px 12px;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.property-number {
+  position: absolute;
+  right: 18px;
+  bottom: 15px;
+  font-family: var(--serif);
+  font-size: 30px;
+  color: white;
+}
+
+.property-info {
+  padding: 27px 23px 30px;
+}
+
+.property-type {
+  color: var(--gold);
+  font-size: 9px;
+  letter-spacing: 2px;
+}
+
+.property-info h3 {
+  font-family: var(--serif);
+  font-size: 25px;
+  font-weight: 400;
+  margin: 13px 0;
+}
+
+.property-info p {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.9;
+  min-height: 70px;
+}
+
+.property-link {
+  display: inline-block;
+  margin-top: 23px;
+  padding-top: 17px;
+  border-top: 1px solid rgba(197,164,109,.35);
+  color: var(--gold-light);
+  font-size: 9px;
+  letter-spacing: 1px;
+  line-height: 1.8;
+}
+
+.properties-note {
+  margin-top: 25px;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.8;
+}
+
+
+/* SERVICES SECTION */
+.services-section {
+  padding: 120px 0;
+  background: #f0ece4;
+  color: var(--dark);
+}
+
+.services-heading {
+  max-width: 650px;
+  margin-bottom: 65px;
+}
+
+.services-heading .section-title {
+  margin-top: 20px;
+}
+
+.services-heading > p {
+  max-width: 450px;
+  margin-top: 20px;
+  color: #6f6b62;
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.services-list {
+  border-top: 1px solid #d6d0c4;
+}
+
+.service-item {
+  display: grid;
+  grid-template-columns: 65px 1fr 40px;
+  gap: 25px;
+  align-items: center;
+  padding: 32px 10px;
+  border-bottom: 1px solid #d6d0c4;
+  transition: background .3s ease;
+}
+
+.service-item:hover {
+  background: rgba(197,164,109,.10);
+}
+
+.service-number {
+  color: #a9854e;
+  font-family: var(--serif);
+  font-size: 23px;
+}
+
+.service-main h3 {
+  font-family: var(--serif);
+  font-size: 27px;
+  font-weight: 400;
+  margin-bottom: 9px;
+}
+
+.service-main p {
+  max-width: 600px;
+  color: #777166;
+  font-size: 12px;
+  line-height: 1.9;
+}
+
+.service-arrow {
+  color: #a9854e;
+  font-size: 24px;
+  text-align: right;
+}
+
+
+/* INVESTMENT SECTION */
+.investment-section {
+  position: relative;
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.investment-background,
+.investment-overlay {
+  position: absolute;
+  inset: 0;
+}
+
+.investment-background img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.investment-overlay {
+  background: linear-gradient(
+    90deg,
+    rgba(12,13,11,.93),
+    rgba(12,13,11,.68),
+    rgba(12,13,11,.35)
+  );
+}
+
+.investment-content {
+  position: relative;
+  z-index: 2;
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
+.investment-content h2 {
+  font-family: var(--serif);
+  font-size: clamp(42px, 7vw, 76px);
+  line-height: 1.13;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+.investment-content h2 em {
+  color: var(--gold-light);
+  font-weight: 400;
+}
+
+.investment-content > p {
+  max-width: 480px;
+  color: #ddd8ce;
+  font-size: 13px;
+  line-height: 2;
+  margin: 25px 0 32px;
+}
+
+.investment-footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 750px;
+  margin-top: 75px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255,255,255,.3);
+  color: var(--gold-light);
+  font-size: 9px;
+  letter-spacing: 2px;
+}
+
+.investment-footer span {
+  color: #ddd8ce;
+}
+
+</style>
+<style>
+
+/* CONTACT SECTION */
+.contact-section {
+  padding: 120px 0;
+  background: var(--cream);
+  color: var(--dark);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: .9fr 1.1fr;
+  gap: 90px;
+  align-items: start;
+}
+
+.contact-intro .section-label {
+  display: block;
+  margin-bottom: 22px;
+}
+
+.contact-intro > p {
+  max-width: 420px;
+  color: #716d64;
+  font-size: 13px;
+  line-height: 2;
+  margin-top: 25px;
+}
+
+.contact-details {
+  margin: 38px 0;
+  padding: 25px 0;
+  border-top: 1px solid #d9d3c8;
+  border-bottom: 1px solid #d9d3c8;
+}
+
+.contact-details div {
+  margin-bottom: 20px;
+}
+
+.contact-details div:last-child {
+  margin-bottom: 0;
+}
+
+.contact-details span,
+.contact-details strong {
+  display: block;
+}
+
+.contact-details span {
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: #a9854e;
+  margin-bottom: 9px;
+}
+
+.contact-details strong {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.contact-intro .outline-button {
+  color: var(--dark);
+}
+
+
+/* FORM */
+.contact-form-wrapper {
+  background: white;
+  padding: 45px;
+  box-shadow: 0 15px 55px rgba(0,0,0,.05);
+}
+
+.form-heading {
+  margin-bottom: 35px;
+}
+
+.form-heading span {
+  color: #a9854e;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.form-heading p {
+  font-family: var(--serif);
+  font-size: 25px;
+  margin-top: 12px;
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 11px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ded9d0;
+  background: #faf9f6;
+  color: var(--dark);
+  font-family: var(--sans);
+  font-size: 12px;
+  outline: none;
+  border-radius: 0;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: var(--gold);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 130px;
+}
+
+.form-submit {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.form-note {
+  margin-top: 18px;
+  color: #89847a;
+  font-size: 10px;
+  line-height: 1.8;
+}
+
+
+/* FOOTER */
+.site-footer {
+  padding: 65px 0 30px;
+  background: #0c0d0b;
+  color: var(--cream);
+}
+
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.footer-top > p {
+  color: var(--gold-light);
+  font-family: var(--serif);
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.back-to-top {
+  color: var(--gold-light);
+  font-size: 9px;
+  letter-spacing: 2px;
+}
+
+.footer-divider {
+  height: 1px;
+  background: rgba(255,255,255,.15);
+  margin: 45px 0 25px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  color: #aaa69d;
+  font-size: 9px;
+  letter-spacing: 1px;
+  line-height: 1.8;
+}
+
+.concept-disclaimer {
+  margin-top: 25px;
+  max-width: 650px;
+  color: #77746d;
+  font-size: 9px;
+  line-height: 1.8;
+}
+
+</style>
+<style>
+
+/* TABLET RESPONSIVENESS */
+@media (max-width: 900px) {
+
+  .desktop-nav {
+    gap: 18px;
+  }
+
+  .about-grid {
+    gap: 45px;
+  }
+
+  .property-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-grid {
+    gap: 45px;
+  }
+
+  .contact-form-wrapper {
+    padding: 30px;
+  }
+
+}
+
+
+/* MOBILE NAVIGATION */
+@media (max-width: 700px) {
+
+  .nav-wrapper {
+    height: 78px;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+    width: 42px;
+    height: 42px;
+    border: 1px solid rgba(197,164,109,.6);
+    background: transparent;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .menu-toggle span {
+    width: 100%;
+    height: 1px;
+    background: var(--gold-light);
+  }
+
+  .mobile-menu {
+    position: absolute;
+    top: 78px;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background: #11120f;
+    padding: 15px 5% 25px;
+    flex-direction: column;
+    border-top: 1px solid rgba(255,255,255,.1);
+  }
+
+  .mobile-menu.open {
+    display: flex;
+  }
+
+  .mobile-menu a {
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    font-size: 13px;
+    color: var(--cream);
+  }
+
+
+  /* MOBILE HERO */
+  .hero {
+    min-height: 700px;
+    height: 90vh;
+    max-height: 850px;
+  }
+
+  .hero-content {
+    padding-top: 85px;
+  }
+
+  .hero h1 {
+    font-size: clamp(43px, 11vw, 66px);
+  }
+
+  .hero-content > p {
+    font-size: 12px;
+    max-width: 350px;
+  }
+
+  .hero-eyebrow {
+    font-size: 8px;
+    letter-spacing: 2px;
+  }
+
+  .hero-bottom {
+    margin-top: 65px;
+    font-size: 7px;
+    letter-spacing: 1px;
+  }
+
+
+  /* MOBILE ABOUT */
+  .about-section {
+    padding: 85px 0;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 55px;
+  }
+
+  .about-image-frame {
+    height: 460px;
+  }
+
+  .about-visual {
+    padding-right: 20px;
+  }
+
+
+  /* MOBILE PROPERTIES */
+  .properties-section,
+  .services-section,
+  .contact-section {
+    padding: 85px 0;
+  }
+
+  .properties-heading {
+    display: block;
+  }
+
+  .properties-heading > p {
+    margin-top: 20px;
+  }
+
+  .property-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .property-image {
+    height: 300px;
+  }
+
+
+  /* MOBILE SERVICES */
+  .services-heading {
+    margin-bottom: 40px;
+  }
+
+  .service-item {
+    grid-template-columns: 35px 1fr 20px;
+    gap: 12px;
+    padding: 25px 3px;
+  }
+
+  .service-main h3 {
+    font-size: 21px;
+  }
+
+  .service-main p {
+    font-size: 11px;
+  }
+
+  .service-number {
+    font-size: 18px;
+  }
+
+
+  /* MOBILE INVESTMENT */
+  .investment-section {
+    min-height: 620px;
+  }
+
+  .investment-content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .investment-footer {
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 55px;
+    font-size: 8px;
+  }
+
+
+  /* MOBILE CONTACT */
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .contact-form-wrapper {
+    padding: 25px 20px;
+  }
+
+
+  /* MOBILE FOOTER */
+  .footer-top {
+    flex-wrap: wrap;
+  }
+
+  .footer-top > p {
+    font-size: 18px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+}
+
+
+/* SMALL MOBILE PHONES */
+@media (max-width: 380px) {
+
+  .hero h1 {
+    font-size: 41px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about-image-frame {
+    height: 380px;
+  }
+
+  .property-image {
+    height: 250px;
+  }
+
+  .contact-form-wrapper {
+    padding: 22px 16px;
+  }
+
+}
+
+</style>
+<script>
+
+/* AUTOMATIC HERO IMAGE SLIDESHOW */
+
+const heroSlides = document.querySelectorAll(".hero-slide");
+
+let currentSlide = 0;
+
+function changeHeroSlide() {
+
+  heroSlides[currentSlide].classList.remove("active");
+
+  currentSlide = (currentSlide + 1) % heroSlides.length;
+
+  heroSlides[currentSlide].classList.add("active");
+
+}
+
+setInterval(changeHeroSlide, 5000);
+
+
+/* MOBILE NAVIGATION */
+
+const menuToggle = document.getElementById("menuToggle");
+const mobileMenu = document.getElementById("mobileMenu");
+
+menuToggle.addEventListener("click", function() {
+
+  mobileMenu.classList.toggle("open");
+
+});
+
+
+/* CLOSE MOBILE MENU AFTER CLICKING A LINK */
+
+const mobileLinks = document.querySelectorAll(".mobile-menu a");
+
+mobileLinks.forEach(function(link) {
+
+  link.addEventListener("click", function() {
+
+    mobileMenu.classList.remove("open");
+
+  });
+
+});
+
+
+/* PROPERTY ENQUIRY FORM */
+
+const propertyForm = document.getElementById("propertyForm");
+
+propertyForm.addEventListener("submit", async function(event) {
+
+  event.preventDefault();
+
+  const name = document.getElementById("clientName").value.trim();
+
+  const email = document.getElementById("clientEmail").value.trim();
+
+  const interest = document.getElementById("propertyInterest").value;
+
+  const message = document.getElementById("clientMessage").value.trim();
+
+  const enquiry = `
+REAL ESTATE WITH SALLY - PROPERTY ENQUIRY
+
+Name: ${name}
+
+Email: ${email}
+
+Interest: ${interest}
+
+Message:
+${message}
+
+Sent from the Real Estate with Sally website concept.
+  `.trim();
+
+  try {
+
+    if (navigator.share) {
+
+      await navigator.share({
+        title: "Property Enquiry",
+        text: enquiry
+      });
+
+    } else {
+
+      await navigator.clipboard.writeText(enquiry);
+
+      alert("Your enquiry has been copied. Open Instagram and send it to Real Estate with Sally.");
+
+    }
+
+  } catch (error) {
+
+    if (error.name !== "AbortError") {
+
+      alert("Your enquiry could not be shared automatically. Please try again.");
+
+    }
+
+  }
+
+});
+
+
+</script>
+
+</body>
+</html>
